@@ -19,7 +19,7 @@ This portfolio reflects my passion for building user-friendly, scalable, and vis
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](./portfolio/assets/portfolio.jpg)
+![Portfolio Screenshot](./assets/portfolio-portfolio.jpg)
 
 ---
 
