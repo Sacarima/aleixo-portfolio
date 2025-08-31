@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧑‍💻 João Aleixo – Personal Portfolio
 
-## Getting Started
+A modern, responsive **developer portfolio** built with **Next.js** and **TailwindCSS**, designed to showcase my work, skills, and experience as a Software Engineer.  
+This portfolio reflects my passion for building user-friendly, scalable, and visually appealing web applications.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🎨 **Modern UI/UX** — Built with TailwindCSS, custom components, and smooth transitions.
+- 📱 **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
+- 📂 **Projects Showcase** — Highlighting full-stack, frontend, and extension projects with live demos and GitHub links.
+- 📊 **Skills Section** — Organized into Languages, Frameworks, Tools, UI/UX Design, and Engineering expertise.
+- 👨‍💼 **About Me** — Personal journey, background, and passion for software engineering.
+- 📑 **Resume Download** — One-click resume access in PDF format.
+- 🌙 **Dark Theme** — Sleek, developer-friendly aesthetic.
+
+---
+
+## 🖼️ Preview
+
+![Portfolio Screenshot](./assets/portfolio-preview.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/)  
+- **Animations**: [Framer Motion](https://www.framer.com/motion/), [Swiper.js](https://swiperjs.com/)  
+- **Icons/UI**: [React Icons](https://react-icons.github.io/react-icons/), Flowbite UI Components  
+- **Backend Projects (showcased)**: Node.js, Express, MongoDB, Firebase, Strapi, PostgreSQL  
+- **Other Tools**: Git/GitHub, Postman, Netlify, Vercel  
+
+---
+
+## 📂 Projects Highlighted
+
+1. **Medipulso** – Full-stack healthcare platform for doctors & patients (React, Node.js, MongoDB, Firebase).  
+2. **eCommerce Platform** – Feature-rich online clothing store (React, Strapi, Stripe).  
+3. **Read Later Chrome Extension** – Save web pages & estimate reading time (JavaScript, Chrome API).  
+4. **Alputo Trading Website** – Corporate site for international trade (React, TailwindCSS).  
+
+Each project includes **descriptions, tech stack, live demos, and GitHub repositories**.
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/Sacarima/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
