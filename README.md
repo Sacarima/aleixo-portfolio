@@ -19,7 +19,7 @@ This portfolio reflects my passion for building user-friendly, scalable, and vis
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](https://raw.githubusercontent.com/Sacarima/aleixo-porfolio/main/assets/portfolio.jpg)
+![Portfolio Screenshot](https://raw.githubusercontent.com/Sacarima/aleixo-portfolio/main/assets/portfolio.jpg)
 
 
 ---
