@@ -1,4 +1,4 @@
-# 🧑‍💻 João Aleixo – Personal Portfolio
+#  João Aleixo – Personal Portfolio
 
 A modern, responsive **developer portfolio** built with **Next.js** and **TailwindCSS**, designed to showcase my work, skills, and experience as a Software Engineer.  
 This portfolio reflects my passion for building user-friendly, scalable, and visually appealing web applications.
@@ -7,24 +7,24 @@ This portfolio reflects my passion for building user-friendly, scalable, and vis
 
 ## ✨ Features
 
-- 🎨 **Modern UI/UX** — Built with TailwindCSS, custom components, and smooth transitions.
-- 📱 **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
-- 📂 **Projects Showcase** — Highlighting full-stack, frontend, and extension projects with live demos and GitHub links.
-- 📊 **Skills Section** — Organized into Languages, Frameworks, Tools, UI/UX Design, and Engineering expertise.
-- 👨‍💼 **About Me** — Personal journey, background, and passion for software engineering.
-- 📑 **Resume Download** — One-click resume access in PDF format.
-- 🌙 **Dark Theme** — Sleek, developer-friendly aesthetic.
+-  **Modern UI/UX** — Built with TailwindCSS, custom components, and smooth transitions.
+-  **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
+-  **Projects Showcase** — Highlighting full-stack, frontend, and extension projects with live demos and GitHub links.
+-  **Skills Section** — Organized into Languages, Frameworks, Tools, UI/UX Design, and Engineering expertise.
+-  **About Me** — Personal journey, background, and passion for software engineering.
+-  **Resume Download** — One-click resume access in PDF format.
+-  **Dark Theme** — Sleek, developer-friendly aesthetic.
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
 ![Portfolio Screenshot](https://raw.githubusercontent.com/Sacarima/aleixo-portfolio/main/public/assets/portfolio.jpg)
 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/)  
 - **Animations**: [Framer Motion](https://www.framer.com/motion/), [Swiper.js](https://swiperjs.com/)  
@@ -34,7 +34,7 @@ This portfolio reflects my passion for building user-friendly, scalable, and vis
 
 ---
 
-## 📂 Projects Highlighted
+##  Projects Highlighted
 
 1. **Medipulso** – Full-stack healthcare platform for doctors & patients (React, Node.js, MongoDB, Firebase).  
 2. **eCommerce Platform** – Feature-rich online clothing store (React, Strapi, Stripe).  
@@ -45,7 +45,7 @@ Each project includes **descriptions, tech stack, live demos, and GitHub reposit
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+##  Getting Started (Local Setup)
 
 Clone the repository and install dependencies:
 
