@@ -57,8 +57,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <Stats /> */}
-        {/* <Stats /> */}
+  
 
        
     </section>

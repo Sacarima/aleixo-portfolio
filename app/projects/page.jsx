@@ -36,26 +36,26 @@ const projects = [
     live: "https://medipulso.com/",
   },
   {
-    num: "02",
-    category: "Frontend",
-    title: "Project 2",
-    description: "Responsive and feature-rich eCommerce platform for selling clothes, using modern web technologies and tools. For the backend, Strapi was used to manage and deliver dynamic content, providing an easy-to-use interface for content updates. The platform integrates Stripe for secure payment processing",
-    stack: [
-      [{ name: "HTML 5" }],
-      [{ name: "CSS" }],
-      [{ name: "Tailwind.css" }],
-      [{ name: "JavaScript" }],
-      [{ name: "React" }],
-      [{ name: "Strapi" }],
-      [{ name: "Stripe" }],
-      [{ name: "Formik" }],
-      [{ name: "Material UI" }],
-
-    ],
-    image: "/assets/galeri-2.jpg",
-    github: "https://github.com/Sacarima/ecommerce-server/tree/master",
-    live: "https://github.com/Sacarima/ecommerce-server/tree/master",
-  },
+  num: "02",
+  category: "Full Stack",
+  stack: [
+    [{ name: "HTML 5" }],
+    [{ name: "Tailwind.css" }],
+    [{ name: "React" }],
+    [{ name: "Node.js" }],
+    [{ name: "Express" }],
+    [{ name: "MongoDB" }],
+    [{ name: "Firebase (Auth)" }],
+    [{ name: "Flowbite" }]
+  ],
+  title: "Immobilia-Virtual",
+  description:
+    "Modern, responsive real-estate web app for the Polish market. Search, filter, and explore listings; subscribe to market insights; contact trusted pros; and sign in with Google OAuth. Includes advanced search with URL-synced filters and pagination, a reusable newsletter subscription component, contact form with server-side validation, responsive navigation with mobile drawer, and Firebase Authentication with Google sign-in.",
+  image: "/assets/realestate.jpg",
+  github: "https://github.com/Sacarima/immobiliariovirtual",
+  live: "https://immobiliario-virtual.onrender.com/" 
+},
+  
   {
     num: "03",
     category: "Chrome Extension",
@@ -67,7 +67,7 @@ const projects = [
       [{ name: "JavaScript (ES6+)" }],
       [{ name: "Chrome Extensions API" }],
     ],
-    image: "/assets/read-with-estimation.png", 
+    image: "/assets/reading.jpg", 
     github: "https://github.com/Sacarima/read-later-extension",
     live: "https://chromewebstore.google.com/detail/read-later-with-estinatio/cifdmmkbpnkggmebbfeaaffhjbdipamb",
   },
@@ -101,7 +101,30 @@ const projects = [
     image: "/assets/portfolio.jpg",
     github: "https://github.com/Sacarima/aleixo-portfolio/tree/main",
     live: "www.joaosacarimaaleixo.com/",
+  },
+  {
+    num: "06",
+    category: "Frontend",
+    title: "Project 6",
+    description: "Responsive and feature-rich eCommerce platform for selling clothes, using modern web technologies and tools. For the backend, Strapi was used to manage and deliver dynamic content, providing an easy-to-use interface for content updates. The platform integrates Stripe for secure payment processing",
+    stack: [
+      [{ name: "HTML 5" }],
+      [{ name: "CSS" }],
+      [{ name: "Tailwind.css" }],
+      [{ name: "JavaScript" }],
+      [{ name: "React" }],
+      [{ name: "Strapi" }],
+      [{ name: "Stripe" }],
+      [{ name: "Formik" }],
+      [{ name: "Material UI" }],
+
+    ],
+    image: "/assets/galeri-2.jpg",
+    github: "https://github.com/Sacarima/ecommerce-server/tree/master",
+    live: "https://github.com/Sacarima/ecommerce-server/tree/master",
   }
+
+
 ]
 
 const Projects = () => {

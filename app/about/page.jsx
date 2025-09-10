@@ -20,7 +20,7 @@ const About = () => {
             <div className="xl:w-[55%] lg:w-full lg:p-6 lg:mx-auto flex-1 xl:text-lef ">
               <div className="max-w-[580px] lg:max-w-full xl:max-w-2/3">
                 <p className="text-white/50 mt-4">
-                  I am a passionate web developer with a focus on creating dynamic and
+                  I am a passionate Software Developer with a focus on creating dynamic and
                   responsive web applications. I have experience in various technologies
                   and frameworks and I am always eager to learn more</p>
                 <p className="text-white/50 mt-4">
@@ -46,7 +46,13 @@ const About = () => {
                 </p>
                 <p className="text-white/50 mt-4">
                   Feel free to reach out to me through my contact page or connect with me
-                  on <Link  href='https://www.linkedin.com/in/joao-sacarima-aleixo-a3aa32253/'><span className="text-[#00FF99] cursor-pointer hover:text-">LinkedIn.</span></Link>
+                  on <Link 
+                     href="https://www.linkedin.com/in/jo%C3%A3o-aleixo-a3aa32253"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="text-[#00FF99] cursor-pointer"
+                  >
+                    LinkedIn.</Link>
                 </p>
               </div>
             </div>

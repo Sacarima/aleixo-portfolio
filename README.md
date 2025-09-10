@@ -50,7 +50,7 @@ Each project includes **descriptions, tech stack, live demos, and GitHub reposit
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Sacarima/portfolio.git
+git clone https://github.com/Sacarima/aleixo-portfolio.git
 cd portfolio
 npm install
 npm run dev
