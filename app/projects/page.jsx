@@ -135,6 +135,8 @@ const projects = [
 
 ]
 
+
+
 const Projects = () => {
   const [project, setProject] = useState(projects[0])
   const [swiper, setSwiper] = useState(null)
@@ -145,7 +147,7 @@ const Projects = () => {
     const currentIndex = swiper.realIndex
     setProject(projects[currentIndex])
   }
-
+console.log("LIVE PROJECT 5 ->", project.live)
   return (
     <motion.div 
       initial={{ opacity: 0, }}
