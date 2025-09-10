@@ -1,6 +1,7 @@
 import { JetBrains_Mono, Geist, Geist_Mono } from "next/font/google";
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import "./globals.css";
+import Link from "next/link"
 
 //components
 import Header from "@/components/Header";
@@ -48,9 +49,15 @@ export default function RootLayout({ children }) {
          <a href="https://x.com/SacarimaAleixo" target="_blank" className="text-2xl text-gray-500 hover:text-[#00FF99]">
            <FaTwitter />
          </a>
-         <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className="text-2xl text-gray-500 hover:text-[#00FF99]">
-           <FaLinkedin />
-         </a>
+         <Link
+            href="https://www.linkedin.com/in/jo%C3%A3o-aleixo-a3aa32253"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open my LinkedIn profile (opens in a new tab)"
+            className="inline-flex items-center text-2xl text-gray-500 hover:text-[#00b39b] transition-colors"
+          >
+            <FaLinkedin aria-hidden="true" focusable="false" />
+          </Link>
        </div>
        <div className="border-l-2 h-[150px] border-gray-500"></div>
      </div>
