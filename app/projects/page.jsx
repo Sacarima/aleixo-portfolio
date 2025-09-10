@@ -108,7 +108,7 @@ const projects = [
     description: "A personal portfolio website built with Next.js and TailwindCSS, designed to showcase my skills, experience, and projects as a software engineer. The site features a modern, responsive design with smooth navigation, dark mode support, and optimized performance for fast loading.It includes sections for an About Me introduction, a Projects showcase, a Skills & Tech Stack overview, and a Contact form to easily connect. The portfolio is structured to highlight both technical expertise and design sense, ensuring a professional online presence for potential employers, clients, and collaborators.",
     image: "/assets/portfolio.jpg",
     github: "https://github.com/Sacarima/aleixo-portfolio/tree/main",
-    live: "https://joaosacarimaaleixo.com/",
+    live: "https://github.com/Sacarima/aleixo-portfolio/tree/main",
   },
   {
     num: "06",
