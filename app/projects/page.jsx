@@ -179,7 +179,12 @@ const Projects = () => {
             </ul>
             <div className="border border-white/20"></div>
             <div className="flex items-center  gap-4">
-              <a href={normalizeHref(project.live)} target="_blank">
+              <a 
+                href={project.live} 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open live project (opens in a new tab)"
+              >
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex items-center justify-center group  gap-4 mt-4">
