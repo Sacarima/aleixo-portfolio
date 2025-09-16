@@ -225,20 +225,24 @@ console.log("LIVE PROJECT 5 ->", project.live)
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[480px] xl:h-[480px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="relative group bg-pink-50/20">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
-                      <div className="w-full h-full relative">
+                      <div className="absolute inset-0 bg-black/10 z-10 pointer-events-none" />
+
+                      {/* Aspect-ratio box: 4:3 on phones, 16:9 from sm up */}
+                      <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] overflow-hidden">
                         <Image
                           src={project.image}
-                          priority
                           alt={project.title}
                           fill
-                          className="object-fill  group-hover:scale-105 transition-all duration-500"
+                          priority
+                          className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1280px) 75vw, 50vw"
                         />
                       </div>
                     </div>
                   </SwiperSlide>
+
                 )
               }
               )}
