@@ -234,7 +234,7 @@ console.log("LIVE PROJECT 5 ->", project.live)
                           priority
                           alt={project.title}
                           fill
-                          className="object-contained  group-hover:scale-105 transition-all duration-500"
+                          className="object-fill  group-hover:scale-105 transition-all duration-500"
                         />
                       </div>
                     </div>

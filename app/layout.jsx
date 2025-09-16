@@ -26,7 +26,7 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: "João Aleixo",
-  description: "Personal Portfolio of João Aleixo, a Software Engineer based in Poland. ",
+  description: "Personal Portfolio of João Aleixo, a Software Developer based in Poland. ",
 }
 
 export default function RootLayout({ children }) {
