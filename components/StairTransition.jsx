@@ -1,33 +1,32 @@
-"use client"
+'use client';
 
-import { AnimatePresence, motion } from "framer-motion"
-import { usePathname } from "next/navigation"
+import { AnimatePresence, motion } from 'framer-motion';
+import { usePathname } from 'next/navigation';
+import Stairs from './Stairs';
 
-//components
-import Stairs from "./Stairs"
+export default function StairTransition() {
+  const pathname = usePathname();
 
-const StairTransition = () => {
-  const pathname = usePathname()
   return (
-    <>
-        <AnimatePresence mode="wait">
-            <div key={pathname}>
-                <div className="h-screen w-screen fixed top-0 left-0 right-0 z-40 flex pointer-events-none ">
-                    <Stairs />
-                </div>
-                <motion.div
-                    initial={{ opacity: 1 }}
-                
-                    animate={{
-                        opacity: 0,
-                        transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
-                    }}
-                    className="h-screen w-screen fixed bg-[#1c1c22] top-0 pointer-events-none"
-                />
-            </div>
-        </AnimatePresence>
-    </>
-  )
-}
+    <AnimatePresence mode="wait">
+      
+      <motion.div
+        key={pathname}
+        aria-hidden
+        className="fixed inset-0 z-[999] pointer-events-none overflow-hidden"
+      >
 
-export default StairTransition
+        <motion.div
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 0, transition: { duration: 0.25, ease: 'easeInOut' } }}
+          className="absolute inset-0 bg-[#1c1c22] z-0"
+        />
+
+      
+        <div className="absolute inset-0 z-10 flex">
+          <Stairs />
+        </div>
+      </motion.div>
+    </AnimatePresence>
+  );
+}
