@@ -112,7 +112,7 @@ const Contact = () => {
                   
                   <form onSubmit={sendEmail} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                   <h3 className="text-4xl text-[#00FF99]">Let's work together</h3>
-                  <p className="text-white/60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur non exercitationem dicta, nemo et temporibus.</p>
+                  <p className="text-white/60">I build dependable, user-friendly apps; let’s discuss your goals, budget, timeline, and impact together now.</p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Input 
