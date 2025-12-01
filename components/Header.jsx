@@ -12,7 +12,7 @@ const Header = () => {
 
  const handleDownloadResume = () => {
     // Logic to download the resume
-    const resumeUrl = "/assets/aleixo-resume.pdf"
+    const resumeUrl = "/assets/Joao-Aleixo-SSWD.pdf"
    window.open(resumeUrl, "_blank")
   }
   

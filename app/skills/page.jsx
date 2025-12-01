@@ -12,19 +12,19 @@ const ServicesCard = [
   {
     num: '01',
     title: "Languages",
-    description: "JavaScript, TypeScript, HTML5, CSS/Sass, SQL",
+    description: "JavaScript, TypeScript, HTML5,jQuery, CSS, SCSS, CSS3, SQL ",
     href:""
   },
   {
     num: '02',
     title: "Frameworks",
-    description: "React, Next.js, Node.js, Express.js, WordPress, Tailwind CSS, Bootstrap,",
+    description: "React, React-Native Next.js, Node.js, Express.js, WordPress, Tailwind CSS, Bootstrap,",
     href:""
   },
   {
     num: '03',
     title: "Tools",
-    description: "Bash, Git, GitHub, Firebase, MongoDB, Postman, Postgres, Strapi, Chrome DevTools, Netlify",
+    description: "Bash, Git, GitHub, Github Actions, Firebase, MongoDB, Postman, Postgres, Strapi, Chrome DevTools, Netlify",
     href:""
   },
   {
